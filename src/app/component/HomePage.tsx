@@ -14,7 +14,7 @@ const HomePage = () => {
         <div className="relative flex justify-center items-center">
         <Image
         className="w-[1240px] h-[679px] absolute top-0" 
-        src={'/images/frame.png'}
+        src={'/images/Frame.png'}
         width={1240}
         height={879}
         alt="frame"
