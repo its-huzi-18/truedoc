@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+     colors:{
+      customBlue:"#63D6C0"
+     },
+     fontFamily: {
+      poppins: ["var(--font-poppins)", "sans-serif"], // Add Poppins to Tailwind
+    },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
